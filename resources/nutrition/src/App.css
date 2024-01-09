@@ -1,0 +1,68 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divider{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+img{
+  height: 15vh;
+  width: 10vw;
+  padding: 15px;
+}
+
+.words{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#name{
+  font-weight: bold;
+}
+
+#resetButton{
+  height: 7vh;
+  width: 8vw;
+  background-color: rgba(128, 128, 128, 0.927);
+  color: white;
+  box-shadow: 1px 1px 1px black;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#quantity{
+  font-weight: bold;
+  position: absolute;
+  right: 20vw;
+}
+
+.quantityHandler{
+  display: flex;
+  height: 4vh;
+  align-self: center;
+  border: 1.5px solid purple;
+}
+
+#plusButton{
+  background-color: purple;
+  color: white;
+}
+
+#search{
+  border: 1.5px solid purple;
+}
+
+#grey-divider{
+  width: 50vw;
+  background-color: rgb(215, 220, 220);
+  margin-right: 25vw;
+}
